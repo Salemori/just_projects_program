@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(245,245,245);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 0px 25px 40px;
+}
+.container form{
+    width: 469px;
+    margin: 70px auto;
+    background: rgb(255,255,255);
+    border: 1px solid rgb(255,255,255);
+    padding: 15px 0px 15px 25px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22rem;
+}
+.content input, .content select, button{
+    width: 13rem;
+    height: 1.6rem;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+.content input, .content select{
+    border: 1px solid rgb(192,192,192);
+}
+input::placeholder, select{
+    font-size: 10px;
+    color: rgb(192,192,192);
+}
+label, h1{
+    font-family: 'Halant', serif;
+}
+button{
+    background: rgb(21,94,239);
+    border: 1px solid rgb(21,94,239);
+    color: white;
+    margin-left: 9rem;
+    font-size: 10px;
+}
+.radio{
+    padding-left: 5.3rem;
+    font-size: 13px;
+}
+.check-box{
+    padding-left: 2.8rem;
+}
+.radio label, .check-box label{
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;    
+}
